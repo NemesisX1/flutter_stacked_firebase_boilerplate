@@ -1,0 +1,1 @@
+# flutter_stacked_firebase_boilerplate
