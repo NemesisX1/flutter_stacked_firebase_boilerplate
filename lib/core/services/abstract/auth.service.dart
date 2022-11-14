@@ -16,4 +16,7 @@ abstract class AuthService {
 
   /// the logout process
   Future<void> logout();
+
+  /// get if the user is loged in
+  Future<bool> get isLogIn;
 }

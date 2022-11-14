@@ -1,3 +1,5 @@
+import 'package:uuid/uuid.dart';
+
 /// Basic class to handle all the DTOs
 abstract class BaseModel {
   ///
@@ -5,4 +7,8 @@ abstract class BaseModel {
 
   ///
   Map<String, dynamic> toJson();
+
+  ///
+
+  String makeId();
 }

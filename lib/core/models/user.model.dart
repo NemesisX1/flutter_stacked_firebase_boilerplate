@@ -1,6 +1,7 @@
 import 'package:flutter_stacked_firebase_boilerplate/core/models/base.model.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:json_annotation/json_annotation.dart';
+import 'package:uuid/uuid.dart';
 part 'user.model.g.dart';
 
 ///
@@ -39,5 +40,10 @@ class AppUser extends HiveObject implements BaseModel {
   @override
   AppUser fromJson(Map<String, dynamic> json) {
     return _$AppUserFromJson(json);
+  }
+
+  @override
+  String makeId() {
+    return const Uuid().v4();
   }
 }

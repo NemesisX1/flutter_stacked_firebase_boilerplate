@@ -41,6 +41,8 @@ dependencies:
   stacked:
   stacked_services:
   json_annotation: ^4.7.0
+  uuid: ^3.0.7
+  firebase_auth: ^4.1.2
 
 
 dev_dependencies:
