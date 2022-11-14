@@ -40,6 +40,7 @@ dependencies:
   logger: ^1.1.0
   stacked:
   stacked_services:
+  json_annotation: ^4.7.0
 
 
 dev_dependencies:
@@ -56,6 +57,7 @@ dev_dependencies:
   hive_generator: ^2.0.0
   very_good_analysis: ^3.1.0
   stacked_generator:
+  json_serializable: ^6.5.4
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
